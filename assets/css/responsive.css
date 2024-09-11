@@ -1,0 +1,125 @@
+@media(max-width:524px) {
+  .register {
+    display: none;
+  }
+  ul.tour-list {
+    display: none;
+  }
+  section.content .food-photos img {
+    width: 100px;
+  }
+  section.content .hotel-photos img {
+    width: 158px;
+  }
+}
+@media(max-width:575px) {
+  .swiper-cards {
+    display: none;
+  }
+}
+@media(max-width:767px){
+  .phone-call {
+    display: none;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .register .entry-date, .register .exit {
+    margin-left: 10px;
+    width: 22%;
+  }
+  .register .beginning, .register .destination {
+    margin-left: 7px;
+  }
+  .register button {
+    padding: 0 12px;
+  }
+  .swiper-tours .swiper-wrapper .swiper-slide a.more {
+    width: 37%;
+  }
+  .swiper-tours .swiper-wrapper .swiper-slide .infor .price {
+    display: none;
+  }
+  .swiper-articles .swiper-slide a img {
+    width: 90px;
+    margin-left: 3px;
+  }
+  .article-titles li a i {
+    display: none;
+  }
+  section.content .food-photos img {
+    margin: 4px;
+    width: 119px;
+  }
+  section.content .hotel-photos img {
+    width: 164px;
+    margin: 5px;
+  }
+  .gallery-tour img {
+    display: none;
+  }
+  .gallery-tour .item {
+    width: 523px;
+  }
+}
+@media(min-width:768px) and (max-width:991px) {
+  section.content .food-photos img {
+    margin: 8px;
+    width: 154px;
+  }
+  .gallery-tour img {
+    margin: 10px 3px;
+    width: 225px;
+  }
+  .gallery-tour .item {
+    width: 452px;
+  }
+  section.content .hotel-photos img {
+    width: 207px;
+  }
+}
+@media(max-width:991px) {
+  nav.navbar form button {
+    display: none;
+  }
+  .swiper-tours .swiper-wrapper .swiper-slide a.add-to-cart {
+    width: 29%;
+  }
+  section ul.article-titles li {
+    margin: 0 0px 30px 8px;
+  }
+}
+@media(min-width:992px) and (max-width:1199px) {
+  section.content .food-photos img {
+    width: 207px;
+  }
+  .gallery-tour img {
+    margin: 10px 3px;
+    width: 303px;
+  }
+  .gallery-tour .item {
+    width: 608px;
+  }
+  section.content .hotel-photos img {
+    width: 287px;
+  }
+}
+@media(max-width:1199px) {
+  .register .beginning input, .register .destination input {
+    width: 50%;
+  }
+  .register .entry-date input, .register .exit input {
+    width: 97%;
+  }
+  .register {
+    margin-bottom: 7px;
+  }
+  .food-photos img {
+    width: 211px;
+  }
+}
+@media(min-width:1199px) {
+  section.content .gallery img {
+    width: 290px;
+  }
+}
